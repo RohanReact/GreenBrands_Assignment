@@ -23,7 +23,7 @@ const Chat = () => {
       model: "gryphe/mythomist-7b:free",
       messages: [{ role: "user", content: text }],
     });
-    console.log(completion.choices[0].message);
+    
 
     setChat((prev) => [
       ...prev,
@@ -40,7 +40,7 @@ const Chat = () => {
       setText(""); // Clear the input field after submission
     }
   };
-  console.log("Chat", chat);
+  
   return (
     <>
       <div className="chat">
