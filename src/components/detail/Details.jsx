@@ -4,7 +4,7 @@ const Details = () => {
   <div className="flex flex-col items-center justify-center min-h-screen  bg-gray-100 ">
   <div className="hidden md:block h-full">
   <img
-    src="public\userImg.png"
+    src="./userImg.png"
     alt="A person holding a phone"
     className=" h-full w-fit "
   />
